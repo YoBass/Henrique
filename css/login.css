@@ -5,8 +5,7 @@
 
 body{
     background-color: black;
-    background-image: url('../img/fundo.jpg');
-    background-position: 50% 70%;
+    background-image: url('../img/fundo.png');
   background-repeat: no-repeat;
   background-size: cover;
     font-family: 'Lucida Sans Unicode';
@@ -29,13 +28,13 @@ input{
 div#corpo-form{
     width: 520px;
     margin: 150px auto 0px auto;
-    background-color: #000000;
+    background-image: url('../img/fundoForm.jpg');
     display: block;
     align-items: center;
     justify-content: center;
     padding-left: 55px;
     border-radius: 30px;
-    box-shadow: 15px 15px #888888;
+    box-shadow: 15px 15px #1f1f1f;
 }
 
 h1{
@@ -45,15 +44,19 @@ h1{
     color: white;
 }
 
-#acessar{
-    margin-left: 50px;
+img#sIcon{
+    width: 15%;
+    height: 15%;
+}
+input#acessar:hover{
+    background-color: #2fb5b2;    
 }
 a{
     color: white;
     text-decoration: none;
     text-align: center;
     display: block;
-    margin-left: -40px;
+    margin-left: -50px;
 }
 
 a:hover{
