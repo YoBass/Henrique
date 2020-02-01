@@ -4,17 +4,28 @@
         <meta charset="utf-8">
         <title>Login</title>
         <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     </head>
     <body>
+        
         <div id="corpo-form">
-            <img src="img/logo.png" alt="Aspect" style="margin-left: 20px;">
-        <h1>Faça login na sua conta da Aspect</h1>
+            <img src="img/logo.png" alt="Aspect">
+        <h1>Faça login na sua conta da Aspekt</h1>
+        
         <form method="POST" action="process.php">
-            <input type="email" placeholder="Usuário">
-            <input type="password" placeholder="Senha">
-            <input type="submit" style="margin-left: 38px;" value="ACESSAR">
-            <a href="">Ainda não é inscrito?<strong>Cadastre-se!</strong></a>
+            <input type="email" placeholder="Usuário"><br>
+            <input type="password" placeholder="Senha"><br>
+            <input type="submit" id="acessar"  value="ACESSAR"><br>
+            <a href=""><strong>Crie uma conta agora</strong></a><br>
+            </p>
         </form>
         </div>
+        
+        
     </body>
 </html>
